@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "mithril_ingot",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "beholdersarmory:silver_ingot"
+    },
+    {
+      "item": "beholdersarmory:silver_ingot"
+    },
+    {
+      "item": "beholdersarmory:silver_ingot"
+    },
+    {
+      "item": "beholdersarmory:silver_ingot"
+    }
+  ],
+  "result": {
+    "item": "beholdersarmory:mithril_ingot"
+  }
+}

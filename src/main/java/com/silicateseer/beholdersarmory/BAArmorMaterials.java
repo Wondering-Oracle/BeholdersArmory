@@ -13,6 +13,18 @@ import net.minecraft.util.Lazy;
 public enum BAArmorMaterials implements ArmorMaterial {
 	PRISMARINE("prismarine", 10, new int[]{2, 4, 5, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 1.0F, 0.0F, () -> {
 	      return Ingredient.ofItems(Items.PRISMARINE_SHARD);
+	   }),
+	QUARTZ("quartz", 10, new int[]{2, 5, 6, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
+	      return Ingredient.ofItems(Items.QUARTZ);
+	   }),
+	EMERALD("emerald", 20, new int[]{3, 6, 8, 3}, 20, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 2.0F, 0.0F, () -> {
+	      return Ingredient.ofItems(Items.EMERALD);
+	   }),
+	SILVER("silver", 10, new int[]{2, 4, 5, 2}, 20, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
+	      return Ingredient.ofItems(BeholdersArmory.SILVER_INGOT);
+	   }),
+	STEEL("steel", 25, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
+	      return Ingredient.ofItems(BeholdersArmory.STEEL_INGOT);
 	   });
 
 	private static final int[] BASE_DURABILITY = new int[]{13, 15, 16, 11};

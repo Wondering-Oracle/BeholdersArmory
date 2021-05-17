@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "adamantine_ingot",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "beholdersarmory:steel_ingot"
+    },
+    {
+      "item": "beholdersarmory:steel_ingot"
+    },
+    {
+      "item": "beholdersarmory:steel_ingot"
+    },
+    {
+      "item": "beholdersarmory:steel_ingot"
+    }
+  ],
+  "result": {
+    "item": "beholdersarmory:adamantine_ingot"
+  }
+}
